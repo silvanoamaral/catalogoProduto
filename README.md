@@ -14,8 +14,8 @@
 * NodeJS 
 
 ## Project Structure
-
-`├── index.html
+```
+├── index.html
 ├── package.json
 ├── src
 │   ├── data
@@ -25,7 +25,7 @@
 │   │   └── main.scss
 │   └── app.js
 ├── webpack.config.js
-`
+```
 
 * `index.html` file main
 * `src/app.js` contains all our cool JavaScript code
