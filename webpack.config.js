@@ -1,3 +1,5 @@
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+
 module.exports = {
 	context: __dirname + "/src",
 	entry: {
@@ -30,6 +32,9 @@ module.exports = {
             }]
         }]
 	},
+	plugins: [
+    	new UglifyJsPlugin()
+  	],
 	devServer: {
 	    inline: true,
 	    contentBase: '.',
