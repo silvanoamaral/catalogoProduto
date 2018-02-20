@@ -6,6 +6,9 @@
 * Persiste os produtos após reload da página.
 
 ## Utilizamos no projeto
+[Link](https://silvanoamaral.github.io/catalogoProduto/)
+
+## Utilizamos no projeto
 
 * HTML
 * CSS / SASS
