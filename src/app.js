@@ -13,9 +13,9 @@ products.products.forEach(function(value){
 	vitrine.innerHTML += `
 		<li>
 			<div class="">
-				<img src="images/" alt="">
+				<img src="./src/img/item-${ value.id }.jpg" alt="">
 				<div class="">
-                    ${ value.title }
+                    ${ value.title } 
                 </div>
                 <div class="price-info">
                     <span class="price">                        	

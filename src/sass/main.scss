@@ -14,3 +14,49 @@ body {
 	padding: 20px;
 	background: #fff;
 }
+
+#content {
+	ul {
+		display: inline-block;
+		text-align: center;
+		
+		li {
+			padding: 1em;
+			height: 310px;
+			font-size: 14px;
+			display: inline-grid;
+			
+			img {
+				margin-bottom: 10px;
+			}
+
+			.price-info {
+				margin: 10px 0;
+			}
+
+			@media #{$mobile} {
+				width: 100%;
+
+				p {
+					font-size: 14px;
+				}
+			}
+			@media #{$tablet} {
+				width: 45%;
+
+				p {
+					font-size: 18px;
+				}
+			}
+			  
+			@media #{$desktop} {
+				width: 20%;
+
+				p {
+					font-size: 20px;
+				}
+			}
+		}
+	}
+}
+

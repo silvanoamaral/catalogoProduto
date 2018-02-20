@@ -5,7 +5,8 @@
 * Visualiza os produtos na sacola;
 * Persiste os produtos após reload da página.
 
-## Utilizamos no projeto
+## GitHub Pages
+
 [Link](https://silvanoamaral.github.io/catalogoProduto/)
 
 ## Utilizamos no projeto
