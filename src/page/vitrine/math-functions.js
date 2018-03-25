@@ -10,4 +10,4 @@ const parcel = (x, y) => {
 	return (x / y).toFixed(2);
 }
 
-export {sum, mult, parcel};
+export {sum, mult, parcel}; 

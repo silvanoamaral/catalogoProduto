@@ -13,7 +13,7 @@ function createProductList(obj){
                     </div>
                     <div class="price-info">
                         <span class="price">                        	
-                            <b>R$</b> 
+                            <b>R$</b>
                             <strong>
                                 ${ value.price }
                             </strong>
