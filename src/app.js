@@ -1,10 +1,15 @@
 import './sass/main.scss';
-import renderProduct from './page/vitrine/createProductList.js';
+import renderProduct from './views/vitrine/createProductList.js';
+import renderFooter from './views/footer/footerTemplate.js';
 
 const products = require("./data/products.json");
-let element = document.getElementById('content');
+
+const element = document.getElementById('content');
+
+const elementFooter = document.getElementById('footer');
 
 renderProduct(products,element);
+renderFooter(elementFooter);
 
 /*
 console.info('Hello World ! Webpack');

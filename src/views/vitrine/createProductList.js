@@ -41,5 +41,5 @@ export default function renderProduct(data, element) {
     const vitrine = createProductList(data);//Chama a função para montar nossa Lista de produto
     element.appendChild(vitrine);
 
-    return data;
+    //return data;
 };
